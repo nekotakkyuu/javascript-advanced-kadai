@@ -118,7 +118,7 @@ const timer = () => {
       wrap.textContent = 'タイムアップ！';
 　　　setTimeout(() => {
       gameOver(id);
-　　　}, 100);
+　　　}, 10);
     }
   }, 1000);
 };
